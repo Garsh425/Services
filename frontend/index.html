@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация обращения</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <div class="container flex container__form">
+        <h1 class="form__title">
+            Форма обращения
+        </h1>
+        <form class="form flex" id="contactForm">
+            <input type="text" class="input input__name" id="surname" placeholder="Фамилия" required>
+            <input type="text" class="input input__name" id="name" placeholder="Имя" required>
+            <input type="text" class="input input__name" id="middlename" placeholder="Отчество" required>
+            <input type="tel" class="input" id="phone" placeholder="Телефон" required>
+            <textarea class="input input__message" id="message" placeholder="Обращение" required></textarea>
+            <button class="button__reset button" type="submit">Отправить</button>
+        </form>
+    </div>
+</body>
+
+</html>
